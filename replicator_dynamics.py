@@ -16,7 +16,7 @@ def run_dynamics(association_matrix):
 		x = x_hat
 		xs.append(x)
 		i += 1
-	print('{} iterations'.format(i))
+	print('converged in {} iterations'.format(i))
 	return xs, x
 
 def replicator(x, association_matrix):
